@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Bondjlo";
+  src: url(../fonts/Bondjlo.ttf);
+}
+@font-face {
+  font-family: "VampireWars";
+  src: url(../fonts/VampireWars-1GG2M.ttf);
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  border: none;
+  margin: 0;
+  background: url(../images/background.jpg) no-repeat;
+  color: #fff;
+}
+#wrapper {
+  margin: 0px auto 0 auto;
+  width: 110%;
+  height: 100%;
+  max-width: 1067px;
+  min-width: 800px;
+  border-right: 1px dashed #fff;
+  border-left: 1px dashed #fff;
+}
+#content-body {
+  font: 100%/1.3 Arial, Helvetica, sans-serif;
+
+  width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}
+
+#enter {
+  height: 200px;
+  margin: 20% auto 0 auto;
+  width: 423px;
+  background: url(../images/automoblox-gridlo.png) top left no-repeat;
+}
+#enter > h1 {
+  position: absolute;
+  left: -9000px;
+}
+#ehere {
+  display: block;
+  width: 100px;
+  margin: 0px auto 0 auto;
+}
+#content {
+  background: none;
+  margin: 15px 0 0 0;
+  width: 100%;
+  height: 100%;
+  max-width: 1067px;
+  min-width: 800px;
+}
+
+.grid-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: grid;
+  margin: 0 auto;
+  width: 960px;
+  align-self: auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container-new {
+  background-color: white;
+  display: grid;
+  margin: 0 auto;
+  width: 960px;
+  align-self: auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container-new > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item7 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.footer {
+  margin: 0;
+  clear: both;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  height: 3em;
+}
+
+section:nth-of-type(1) {
+  background: url(../images/maincon_bg.png) no-repeat center;
+  width: 900px;
+  margin: 50px auto 0 auto;
+  height: 275px;
+}
+#car-name {
+  font-family: VampireWars;
+  font-size: 200%;
+}
+#about {
+  background: none;
+  margin: 30px 0 0 40px;
+  padding: 0;
+}
+
+#about > h1 {
+  font-family: Bondjlo;
+  font-weight: bold;
+  color: #090150;
+  font-size: 150%;
+  margin: 10px 0 15px 0;
+  padding: 0;
+}
+
+#about > p {
+  font-family: Bondjlo;
+  width: 800px;
+  font-size: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+section:nth-of-type(1) > figure {
+  margin: 15px 0 0 15px;
+}
+
+.i1 {
+  background: url(../images/smallcon_bg.png) no-repeat center;
+  width: 280px;
+  height: 182px;
+  display: inline-block;
+  vertical-align: top;
+  -moz-box-orient: vertical;
+  font-size: 40%;
+}
+.i1 > p {
+  font-size: 115%;
+  font-family: Bondjlo;
+  width: 250px;
+  margin: 0 0 0 10px;
+}
+.i1 > h1 {
+  font-family: Bondjlo;
+  font-size: 230%;
+  align-self: center;
+  margin: 0 0 10px 10px;
+  width: 250px;
+  color: #090150;
+}
+
+#specs {
+  background: url(../images/smallcon_bg.png) no-repeat center;
+  width: 280px;
+  margin: 0 0 20px 0;
+  height: 182px;
+  display: inline-block;
+  -moz-box-orient: vertical;
+  font-size: 40%;
+}
+
+#specs > p {
+  font-family: Bondjlo;
+  width: 250px;
+  margin: 0 0 0 280px;
+}
+#specs > h1 {
+  font-family: Bondjlo;
+  font-size: 180%;
+  font-weight: bold;
+  align-self: center;
+  margin: 0 0 10px 20px;
+  width: 250px;
+  color: #090150;
+}
+
+#details {
+  background: url(../images/maincon_bg.png) no-repeat center;
+  width: 900px;
+  margin: 50px auto 0 auto;
+  height: 275px;
+}
+#details > h1 {
+  font-family: Bondjlo;
+  font-weight: bold;
+  color: #090150;
+  font-size: 150%;
+  margin: 10px 0 15px 0;
+  padding: 0;
+}
+#details > p {
+  font-family: Bondjlo;
+  font-weight: bold;
+  width: 800px;
+  text-align: center;
+  margin: 0 0 0 50px;
+  font-size: 60%;
+  padding: 0;
+}
+svg {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
